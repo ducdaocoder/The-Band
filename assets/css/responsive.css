@@ -1,0 +1,87 @@
+/* BREAK POINT */
+
+/* PC */
+@media (min-width:1024px) {
+   
+}
+
+/* Tablet & mobile */
+@media  (max-width:1023px) {
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    .Text-body .Text-tour {
+        padding: 15px 15px;
+    }
+
+    .input-right {
+        padding: 15px ;
+    }
+
+    .icon-about i {
+        margin: 8px;
+        font-size: 28px;
+    }
+   
+}
+
+/* Mobile */
+@media (max-width:740px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    /* li:first-child -> dùng display cho thẻ li đầu tiên  */
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .mobile-menu {
+        display: block;
+    }
+
+    #header .Search-right {
+        display: none;
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    #nav .subnav a {
+        padding: 5px 25px;
+    }
+
+    /* position: initial; ẩn position:absolute */
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .Img_The_Band {
+        width: 60%;
+    }
+
+    .Body-tour {
+        margin-top: 30px;
+    }
+
+    .col-full, .input-submit {
+        height: auto;
+        width: 100% !important;
+    }
+
+    .iput-next {
+        margin-top: 30px;
+    }
+}
+
